@@ -1,11 +1,11 @@
 Yii DKIM wrapper
 ===
 
-While DKIM relies on cryptographic signatures, it is quite easy to configure
-but it requires the use of *OpenSSL* on the command line (from your web 
-server or on any platform).
+This project is a wrapper of [PHP-DKIM library]() as a component for usage in conjunction with Yii framework. Nthing new, just convenient.
 
 ## Installation
+
+While DKIM relies on cryptographic signatures, it is quite easy to configure but it requires the use of *OpenSSL* on the command line (from your web server or on any platform).
 
 1. Extract [yii-dkim](/VanDamm/yii-dkim/) from archive to your application's extension directory
 1. Generate the RSA private key (in the example key size is 384 bits 
